@@ -39,6 +39,7 @@ if (isset($_POST['submit']))
 
 
     //For repo
+    //Ex: repo-desc Synthia22 WHC
     else if(strpos($input, "repo-desc"))
     {
         global $desc;
